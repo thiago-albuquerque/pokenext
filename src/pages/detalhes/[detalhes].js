@@ -101,12 +101,7 @@ export default function Detalhes({ pokemon }) {
 
               <span>
                 {pokemon.types.map((item, index) => (
-                  <h6
-                    className={`${styles.type_normal} ${
-                      styles["type_" + item.type.name]
-                    }`}
-                    key={index}
-                  >
+                  <h6 className={styles.typeColor} key={index}>
                     {item.type.name}
                   </h6>
                 ))}
