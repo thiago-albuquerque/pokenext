@@ -1,0 +1,34 @@
+.cardContainer{
+    width: 310px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba($color: #fff, $alpha: 0.2);
+    border-radius: 5px;
+    padding-left: 15px;
+    margin: 2% 1%;
+}
+.nameContainer h4{
+    font-size: 16px;
+    font-weight: normal;
+    color: #fe3c00;
+    margin-bottom: 5px;
+}
+.nameContainer h1{
+    font-size: 26px;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.nameContainer a{
+    font-weight: bold;
+    color: #fff;
+    background: #000;
+    border-radius: 5px;
+    padding: 10px 30px;
+    transition: 0.2s;
+}
+.nameContainer a:hover{
+    background: #fe3c00;
+}
