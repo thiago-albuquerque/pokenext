@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { Ionicon } from "react-icons/io5";
-
 import styles from "./header.module.scss";
 
 export default function Header() {
