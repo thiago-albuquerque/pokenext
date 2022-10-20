@@ -5,7 +5,7 @@ import Header from "../components/Header/Header";
 import Card from "../components/Card/Card";
 import Footer from "../components/Footer/Footer";
 
-import styles from "../styles/home.module.scss";
+import styles from "../styles/home.module.sass";
 
 export async function getStaticProps() {
   const maxPokemons = 260;

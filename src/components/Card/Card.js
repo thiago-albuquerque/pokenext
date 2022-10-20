@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import styles from "./card.module.scss";
+import styles from "./card.module.sass";
 
 export default function Card({ pokemon }) {
   return (

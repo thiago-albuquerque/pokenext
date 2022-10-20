@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import logo from "../../Images/logoFooter.png";
 
-import styles from "./footer.module.scss";
+import styles from "./footer.module.sass";
 
 export default function Footer() {
   return (
